@@ -1,6 +1,7 @@
 """
 
     __dict__
+    Descriptor __get__
 
 """
 
@@ -26,7 +27,7 @@
 
 
 
-# -------- Descriptor --get--
+# -------- Descriptor __get__
 
 class One:
     def __get__(self, instance, owner):
